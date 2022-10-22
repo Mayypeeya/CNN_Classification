@@ -11,7 +11,7 @@
 ## 2. Data🖼️
 
 ### Data source
-![image](https://user-images.githubusercontent.com/69892468/197325966-7ee771f0-5992-4eac-9b07-6b134e4c62b6.png)
+<img width="523" alt="image" src="https://user-images.githubusercontent.com/69892468/197325994-e3aa997e-634f-4615-92fe-96e2a92702eb.png">
 
 
 
@@ -37,12 +37,13 @@
 ## 3. Network architecture🌐
 
 ### 3.1 Transfer learning
-![image](https://user-images.githubusercontent.com/69892468/197325962-c7b8052a-f0cd-4776-b0e2-39a6f346df98.png)
+<img width="479" alt="image" src="https://user-images.githubusercontent.com/69892468/197325982-5bd3e9e3-9db0-4d72-9002-9b5c8e549953.png">
+
 
 
 
 ### 3.2 No Fine-tuning
-![image](https://user-images.githubusercontent.com/69892468/197325961-479e43b0-411c-46e5-bf94-1dfcc6cbdef4.png)
+<img width="393" alt="image" src="https://user-images.githubusercontent.com/69892468/197326003-86613aa4-271f-4b58-bcef-c24430e9148b.png">
 
 ### 3.3 Fine-tuning
 
