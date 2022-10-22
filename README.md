@@ -29,8 +29,7 @@
 
 ### Data preparation
 
-<img width="641" alt="image" src="https://user-images.githubusercontent.com/69892468/197327680-d17e2514-ea09-4e6d-a002-75554b2d2539.png">
-<img width="635" alt="image" src="https://user-images.githubusercontent.com/69892468/197327699-0db3a12a-e520-4c93-aaa6-14a2d43e07a3.png">
+
 
 ```
 train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
@@ -41,8 +40,9 @@ train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
                                 validation_split=0.2) 
 train_datagen.fit(x_train)
  ```
-
-
+ 
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/69892468/197327680-d17e2514-ea09-4e6d-a002-75554b2d2539.png">
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/69892468/197327699-0db3a12a-e520-4c93-aaa6-14a2d43e07a3.png">
 
 ## 3. Network architecture🌐
 
