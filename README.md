@@ -39,7 +39,9 @@ In the process, all images were converted to .jpg files and manually extracted i
 - **`test_size`** = 0.3
 - **`Train Data`**: 105 images
 - **`Test Data`**: 45 images
-4. **Data Augmentation** filp images in Herizontal and Vertical
+4. **Data Augmentation** 
+- Herizontal and Vertical Flip for training set
+- Validation Split = 0.2
 ```
 train_datagenerate = tf.keras.preprocessing.image.ImageDataGenerator(
                                 samplewise_center=True,
@@ -49,7 +51,13 @@ train_datagenerate = tf.keras.preprocessing.image.ImageDataGenerator(
                                 validation_split=0.2) 
 train_datagenerate.fit(x_train)
 ````
+5. **Continue pre-processing step of each model to be trained as table below**
 
+|No  |Model Name      |Procesing code |
+|:---:|:---:             |---                               |
+| 1. |**`VGG16`**  | tf.keras.applications.**`vgg16`**.preprocess_input()  |   
+| 2. |**`DenseNet121`**| tf.keras.applications.**`densenet`**.preprocess_input()| 
+| 3. |**`InceptionResNetV2`** | tf.keras.applications.**`inception_resnet_v2`**.preprocess_input()| 
 
 
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/69892468/197327680-d17e2514-ea09-4e6d-a002-75554b2d2539.png">
@@ -58,19 +66,42 @@ train_datagenerate.fit(x_train)
 ## 3. Network architecture🌐
 
 ### 3.1 Transfer learning
-<img width="452" alt="image" src="https://user-images.githubusercontent.com/69892468/197329795-06d98ea5-affd-4234-a9ad-cb1d14b624f3.png">
+#### Model selection 
+- In the experiment, we have used twenty ImageNet pre-trained models such as **`VGG16, ResNet50, InceptionResNetV2, DenseNet121, etc.`** to reuse low-level layers of the models (part of the feature extractor) with our custom dataset due to the small dataset differing from the ImageNet dataset. This also resulted in a shorter training time when compared to Fine-Tuning.
+<br>We select **`3 models are VGG16, InceptionResNetV2 and DenseNet121`** from 20 models.
+
+![image](https://user-images.githubusercontent.com/39288060/197341422-8cec35b3-7fd1-4e0a-a999-5c5dd8fb8b95.png)
+
+- The main principle to choos these because they show **`similar Accuracy in different model sizes`**. Nevertheless, we still compare accuracy and time for training classification models in each.
+- **`VGG16 Architecture`**
+
+![image](https://user-images.githubusercontent.com/39288060/197343198-9d8c7333-4dd3-454a-9883-617e3565a4c1.png)
+
+- **`DenseNet121 Architecture`**'
+
+![image](https://user-images.githubusercontent.com/39288060/197343633-fe06497f-3e9d-4748-ab04-b3259a9658d5.png)
+
+- **`InceptionResNetV2 Architecture`**
+Inception-ResNet-v2 is a convolutional neural network that is trained on more than a million images from the ImageNet database. The network is 164 layers deep and can classify images into 1000 object categories, such as the keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images.
+
+![image](https://user-images.githubusercontent.com/39288060/197343528-3e38282d-ce01-4afe-b82c-60998c882b21.png)
 
 
+### 3.2 Freezed the pre-trained parameters
+**`Freezed the pre-trained CNN parameters to be non-trainable`** of three foundation models for transfer learning in part of feature extraction layer and created with a classification layer to be used classification image class that architecture of model has not learned before as in the detail of classification models below.
 
-
-### 3.2 No Fine-tuning
 <img width="393" alt="image" src="https://user-images.githubusercontent.com/69892468/197326003-86613aa4-271f-4b58-bcef-c24430e9148b.png">
 
-### 3.3 Fine-tuning
+### 3.3 Fine-Tune Model
+Once we have a model that is ready for transfer learning, we will fine-tuning the model to get the appropriate values for the available dataset, starting with fine-tuning in the classification section. layer first, with the following steps:
 
+1. Set the model seed for fit and data augmentation to maintain the pattern in the sampling data.
+2. Change the batch size and number of epoch.
+3. Perform fine-tuning model by adjusting the number of nodes in dense layer and train to test accuracy.
+4. Increase the number of dense layers.
+5. If the model is overfitted, a dropout layer will be added.
 
-
-
+When fine-tuning the classification layer, the unfreeze feature extraction layer is tested and the results are compared.
 
 
 
@@ -94,6 +125,12 @@ train_datagenerate.fit(x_train)
 
  
 ## _End Credit_
+This study is a part of **Deep Learning course (DADS7202)**, Businuss Analytics and Data Science, National Institute of Development Admistration (NIDA)
 
-
-_งานชิ้นนี้เป็นส่วนหนึ่งของ วิชาการวิเคราะห์เชิงกำหนดและการหาค่าเหมาะสุดประยุกต์ หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาการวิเคราะห์ข้อมูลและวิทยาการข้อมูล มหาวิทยาลัยสถาบันบัณฑิตพัฒนบริหารศาสตร์_
+## 💟 3PM Member's Contribution and Responsibility 
+|No  |ID                |Name                              |% Contribution |Responsibility                             |
+|:---:|:---:             |---                               |:---:            |:---|
+|1. |6410422005     |Metpiya Learakkakorn|25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion|    
+|2. |6410422015     |Khodchapan Vitheethum |25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion|
+|3. |6410422017     |Peerat Pookpanich |25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion|
+|4. |6410422031     |Anyamanee Pornpanvattana |25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion |
