@@ -14,8 +14,7 @@
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/69892468/197325994-e3aa997e-634f-4615-92fe-96e2a92702eb.png">
 
 
-
-![Presentation1](https://user-images.githubusercontent.com/69892468/197324209-0e46ffbb-1dfb-4c3e-a0b7-29ae9a566591.jpg)
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/69892468/197326053-fa8b8df7-bacb-4e64-ad59-8ba1eaf65c49.png">
 
 
 
