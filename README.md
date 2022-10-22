@@ -6,7 +6,7 @@
 
 
 ## 1. Introduction🍆
-![image](https://user-images.githubusercontent.com/101736826/197330829-95250bb4-b372-4fdb-9ab4-80370645e1e5.png)
+![image](https://user-images.githubusercontent.com/101736826/197330860-35ce6223-9448-4d45-9b17-f4a53a11a72d.png)
 
 
 ## 2. Data🖼️
