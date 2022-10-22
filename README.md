@@ -18,6 +18,14 @@
 
 ### Data preparation
 
+```
+    samplewise_center=True
+    samplewise_std_normalization=True
+    horizontal_flip=True
+    vertical_flip=True
+    validation_split=0.2
+ ```
+
 
 
 ## 3. Network architecture🌐
