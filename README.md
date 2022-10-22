@@ -38,6 +38,11 @@
 
 ### 3.1 Transfer learning
 ![image](https://user-images.githubusercontent.com/69892468/197324332-113311c6-4276-4155-9e24-aba546ad2466.png)
+
+![VGG16](https://user-images.githubusercontent.com/69892468/197325085-0e274c16-d0aa-4617-a7d5-717ecf3c7b6f.png)
+![ResNet50](https://user-images.githubusercontent.com/69892468/197325094-0bab682e-2c72-487a-a888-4b3c66d3fdca.png)
+![DenseNet121](https://user-images.githubusercontent.com/69892468/197325099-f5b16c70-8eed-48b2-aa54-07374a702c41.png)
+
 ### 3.2 No Fine-tuning
 ### 3.3 Fine-tuning
 
