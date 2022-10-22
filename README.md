@@ -3,11 +3,15 @@
 
 
 ## _💫Key Highlight💫_
+• Transfer Learning and Fine-Tuning applied to our custom dataset, the EggPlant images clasification.
+• Grad-CAM 
+• Bestmodel
+
 
 ## 📖Contents
-[Code.ipynp]()
  - [1. Introduction🍆🍅](https://github.com/Mayypeeya/CNN_Classification#1-introduction)
  - [2. Dataset🔎](https://github.com/Mayypeeya/CNN_Classification#2-data%EF%B8%8F)
+ <br>-[Code_Image_Preprocessing]()
  - [3. Network architecture🌐](https://github.com/Mayypeeya/CNN_Classification#3-network-architecture)
  - [4. Training👻](https://github.com/Mayypeeya/CNN_Classification#4-training)
  - [5. Results📈](https://github.com/Mayypeeya/CNN_Classification#5-results)
@@ -82,7 +86,7 @@ train_datagenerate.fit(x_train)
 ![image](https://user-images.githubusercontent.com/39288060/197343633-fe06497f-3e9d-4748-ab04-b3259a9658d5.png)
 
 - **`InceptionResNetV2 Architecture`**
-Inception-ResNet-v2 is a convolutional neural network that is trained on more than a million images from the ImageNet database. The network is 164 layers deep and can classify images into 1000 object categories, such as the keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images.
+<br>Inception-ResNet-v2 is a convolutional neural network that is trained on more than a million images from the ImageNet database. The network is 164 layers deep and can classify images into 1000 object categories, such as the keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images.
 
 ![image](https://user-images.githubusercontent.com/39288060/197343528-3e38282d-ce01-4afe-b82c-60998c882b21.png)
 
@@ -93,29 +97,38 @@ Inception-ResNet-v2 is a convolutional neural network that is trained on more th
 <img width="393" alt="image" src="https://user-images.githubusercontent.com/69892468/197326003-86613aa4-271f-4b58-bcef-c24430e9148b.png">
 
 ### 3.3 Fine-Tune Model
-Once we have a model that is ready for transfer learning, we will fine-tuning the model to get the appropriate values for the available dataset, starting with fine-tuning in the classification section. layer first, with the following steps:
-
-1. Set the model seed for fit and data augmentation to maintain the pattern in the sampling data.
+- Once we have transfer learning model, we will fine-tune the classification model to get the appropriate values for this dataset by starting with the following steps:
+```
+1. Set seed number to maintain the pattern in the sampling data to fit model and augmentation.
 2. Change the batch size and number of epoch.
-3. Perform fine-tuning model by adjusting the number of nodes in dense layer and train to test accuracy.
-4. Increase the number of dense layers.
-5. If the model is overfitted, a dropout layer will be added.
+3. Perform fine-tuning model by adjusting nodes number in dense layer, and then train to confirm accuracy.
+4. Increase Dense layers.
+5. If the model shown Overfit, add dropout layer into model.
+```
 
-When fine-tuning the classification layer, the unfreeze feature extraction layer is tested and the results are compared.
+## 4. Training📈
+### Model #1 (VGG16 as Feature Extractor)
 
+### Model #2 (DenseNet121 as Feature Extractor)
 
+### Model #3 (InceptionResNetV2 as Feature Extractor)
 
-## 4. Training👻
+## 5. Results📊
+### 5.1 Freezed the pre-trained parameters 
+The results of model training no fine-tuning With the parameters in 3.2, DenseNet121 is the model with the highest accuracy of 0.968±0.004 and the lowest average training time of 27.5 sec. InceptionResNetV2 and VGG16 provide accuracy and a lower training time respectively.
 
+![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
 
+### 5.2 Trained Classication Layer
 
-## 5. Results📈
-
-
+### 5.3 Comparison
   
 
-## 6.Discussion💭
-
+## 6.Discussion🗣️
+1. The data should be imported in the form of a numpy array for convenience when the data set uses multiple file formats. and make it possible to import data that has Augmentation is already arranged in the correct class.
+2. From the experiment, it was found that Adjusting the Augmentation feature directly affects the accuracy because Augmentation is like regularizing to reduce data overfit. Therefore, it was noticed that Before and after Augmentation the accuracy is different than XX%.
+3. Using layer dropout (0.2) in model InceptionResNetV2 reduced test accuracy by approximately 20%.
+4. Model InceptionResNetV2 provides lower accuracy with increasing batch size.
 
 ## 7. Conclusion👑
 
@@ -123,6 +136,13 @@ When fine-tuning the classification layer, the unfreeze feature extraction layer
 
 ## 8. References✍🏼
 
+### Version:
+![image](https://user-images.githubusercontent.com/39288060/197344245-e48a96d4-cf3a-47fe-823f-81d7423c3b5a.png)
+
+### Appendix:
+- [Keras Applications](https://keras.io/api/applications)
+- [nuttachot promrit Apr 20, 2021](https://blog.pjjop.org/transfer-learning-with-keras-for-computer-vision-applications/)
+- [] 
  
 ## _End Credit_
 This study is a part of **Deep Learning course (DADS7202)**, Businuss Analytics and Data Science, National Institute of Development Admistration (NIDA)
