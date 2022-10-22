@@ -42,6 +42,7 @@ Transfer Learning is about pre-trained model usage or weights of models that wer
 - 
 #### 🔎Data collection (Internet Seaching) 
 [🔗Link to download the dataset:](https://github.com/Mayypeeya/CNN_Classification/tree/main/01_DataSet_image)
+
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/69892468/197325994-e3aa997e-634f-4615-92fe-96e2a92702eb.png">
 
 <img width="635" alt="image" src="https://user-images.githubusercontent.com/69892468/197326053-fa8b8df7-bacb-4e64-ad59-8ba1eaf65c49.png">
