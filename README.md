@@ -38,6 +38,10 @@
 
 ### 3.1 Transfer learning
 ![image](https://user-images.githubusercontent.com/69892468/197324332-113311c6-4276-4155-9e24-aba546ad2466.png)
+### 3.2 No Fine-tuning
+### 3.3 Fine-tuning
+
+
 
 
 
