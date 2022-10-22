@@ -168,15 +168,8 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 - [nuttachot promrit Apr 20, 2021](https://blog.pjjop.org/transfer-learning-with-keras-for-computer-vision-applications/)
 - [Asst.Prof.ThitiratSiriborvornratanakul, Ph.D.](https://www.facebook.com/thitirat.thelecturer)**GradCAM method: using example code in class06 of DADS7202**
 
-### Citing:
-[citing.file](https://github.com/Mayypeeya/CNN_Classification/blob/5caa66a5f75f44d3047028d52f707882f68e59de/citing.bib)
-<br>
-@Misc{3PM,
-    AUTHOR          = {Metpiya Lea. , Khodchapan Vit. , Peerat Poo. , Anyamanee Por.},
-    TITLE           = {CNN classification comparion with 3 model base},
-    YEAR            = {2022},
-    howpublished    = "\url{https://github.com/Mayypeeya/CNN_Classification}"
-}
+### Citing:[citing.file](https://github.com/Mayypeeya/CNN_Classification/blob/5caa66a5f75f44d3047028d52f707882f68e59de/citing.bib)
+
  
 ## _End Credit_
 This study is a part of **Deep Learning course (DADS7202)**, Businuss Analytics and Data Science, National Institute of Development Admistration (NIDA)
