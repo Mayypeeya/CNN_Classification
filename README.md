@@ -47,7 +47,7 @@ train_datagen.fit(x_train)
 ## 3. Network architecture🌐
 
 ### 3.1 Transfer learning
-<img width="479" alt="image" src="https://user-images.githubusercontent.com/69892468/197325982-5bd3e9e3-9db0-4d72-9002-9b5c8e549953.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/69892468/197329795-06d98ea5-affd-4234-a9ad-cb1d14b624f3.png">
 
 
 
