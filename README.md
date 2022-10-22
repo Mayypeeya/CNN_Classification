@@ -35,7 +35,7 @@
 ## 3. Network architecture🌐
 
 ### 3.1 Transfer learning
-![image](https://user-images.githubusercontent.com/69892468/197324259-ebaa1819-a73b-4c31-943f-9210bb23342b.png)
+![image](https://user-images.githubusercontent.com/69892468/197324280-376c3ad9-7c97-4de6-99ff-6b7e22c91b2a.png)
 
 
 
