@@ -11,7 +11,7 @@
 ## 📖Contents
  - [1. Introduction🍆🍅](https://github.com/Mayypeeya/CNN_Classification#1-introduction)
  - [2. Dataset🔎](https://github.com/Mayypeeya/CNN_Classification#2-data%EF%B8%8F)
- <br>-[Code_Image_Preprocessing]()
+ <br>- [Code_Image_Preprocessing]()
  - [3. Network architecture🌐](https://github.com/Mayypeeya/CNN_Classification#3-network-architecture)
  - [4. Training👻](https://github.com/Mayypeeya/CNN_Classification#4-training)
  - [5. Results📈](https://github.com/Mayypeeya/CNN_Classification#5-results)
@@ -107,15 +107,15 @@ train_datagenerate.fit(x_train)
 
 ## 4. Training📈
 ### Model #1 (VGG16 as Feature Extractor )
-- **`Best Accuracy  : `**
+- **`Best Accuracy: `**
 ![image](https://user-images.githubusercontent.com/39288060/197346962-7115df1d-0b93-4106-b5c4-0a87e74ca2c5.png)
 
 ### Model #2 (DenseNet121 as Feature Extractor)
-- **`Model Accuracy: `**
+- **`Best Accuracy: `**
 ![image](https://user-images.githubusercontent.com/39288060/197346979-0a8bbaf9-1e72-4605-b120-d8f6693f5224.png)
 
 ### Model #3 (InceptionResNetV2 as Feature Extractor)
-- **`Model Accuracy: `**
+- **`Best Accuracy: `**
 ![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
 ## 5. Results📊
