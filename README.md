@@ -42,6 +42,8 @@
 
 
 ### 3.2 No Fine-tuning
+<img width="308" alt="image" src="https://user-images.githubusercontent.com/69892468/197325901-607a6a19-e9e7-4aa8-b639-d8981aa31f2c.png">
+
 ### 3.3 Fine-tuning
 
 
