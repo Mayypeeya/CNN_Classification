@@ -16,13 +16,13 @@
  - [4. Training📈](https://github.com/Mayypeeya/CNN_Classification#4-training)
    <br>***VGG16***
    <br>[Code_WithOut_Tune:](https://github.com/Mayypeeya/CNN_Classification/blob/main/VGG16_NoTune.ipynb)
-   <br>[Code_With_Tune]()
+   <br>[Code_With_Tune](https://github.com/Mayypeeya/CNN_Classification/blob/main/VGG16_Tune_FineTune_Unfreeze.ipynb)
    <br>***DenseNet121***
    <br>[Code_WithOut_Tune:](https://github.com/Mayypeeya/CNN_Classification/blob/main/DenseNet121_NoTune.ipynb)
-   <br>[Code_With_Tune]()
+   <br>[Code_With_Tune](https://github.com/Mayypeeya/CNN_Classification/blob/main/DenseNet121_FineTune_Unfreeze.ipynb)
    <br>***InceptionResNetV2***
    <br>[Code_WithOut_Tune:](https://github.com/Mayypeeya/CNN_Classification/blob/main/InceptionResNetV2_NoTune.ipynb)
-   <br>[Code_With_Tune]()
+   <br>[Code_With_Tune](https://github.com/Mayypeeya/CNN_Classification/blob/main/InceptionResNetV2_FineTune_Unfreeze.ipynb)
    
  - [5. Results📊](https://github.com/Mayypeeya/CNN_Classification#5-results)
  - [6. Discussion🗣️](https://github.com/Mayypeeya/CNN_Classification#6discussion)
