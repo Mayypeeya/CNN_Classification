@@ -19,7 +19,6 @@
  - [7. Conclusion👑](https://github.com/Mayypeeya/CNN_Classification#7-conclusion)
  - [8. References✍🏼](https://github.com/Mayypeeya/CNN_Classification#8-references)
 
-
 ## 1. Introduction🍆🍅
 Transfer Learning is about pre-trained model usage or weights of models that were trained with another huge dataset to be used with an interesting dataset. This helps to reduce the process and time for training the model manually and also improves the efficiency of the model's learning.
 <br>Our group used weight from a pre-trained of CNN model that was trained by ImageNet Dataset. And used it with multi-class classification. The eggplant 3 types and tomato were classified as having individual characteristics along with this dataset has never been trained before. The classes of different data that be used have different characteristics as follows:
@@ -107,11 +106,17 @@ train_datagenerate.fit(x_train)
 ```
 
 ## 4. Training📈
-### Model #1 (VGG16 as Feature Extractor)
+### Model #1 (VGG16 as Feature Extractor )
+- **`Best Accuracy  : `**
+![image](https://user-images.githubusercontent.com/39288060/197346962-7115df1d-0b93-4106-b5c4-0a87e74ca2c5.png)
 
 ### Model #2 (DenseNet121 as Feature Extractor)
+- **`Model Accuracy: `**
+![image](https://user-images.githubusercontent.com/39288060/197346979-0a8bbaf9-1e72-4605-b120-d8f6693f5224.png)
 
 ### Model #3 (InceptionResNetV2 as Feature Extractor)
+- **`Model Accuracy: `**
+![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
 ## 5. Results📊
 ### 5.1 Freezed the pre-trained parameters 
@@ -121,14 +126,16 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 
 ### 5.2 Trained Classication Layer
 
-### 5.3 Comparison
+### 5.3 Comparing Models
+
+### 5.4 Visualizing what CNN learned with Grad-Cam
   
 
 ## 6.Discussion🗣️
-1. The data should be imported in the form of a numpy array for convenience when the data set uses multiple file formats. and make it possible to import data that has Augmentation is already arranged in the correct class.
-2. From the experiment, it was found that Adjusting the Augmentation feature directly affects the accuracy because Augmentation is like regularizing to reduce data overfit. Therefore, it was noticed that Before and after Augmentation the accuracy is different than XX%.
-3. Using layer dropout (0.2) in model InceptionResNetV2 reduced test accuracy by approximately 20%.
-4. Model InceptionResNetV2 provides lower accuracy with increasing batch size.
+1. Import Data Method: Using **Numpy Array** to support multiple format of image dataset and make sure that augmentation is already arranged in the correct class.
+2. From the experiment result, we found that adjusting the augmentation feature directly affects accuracy because augmentation is a regularization method that reduces data training is overfit. Therefore, it was noticed that before and after augmentation the accuracy is different than XX%.
+3. When using layer dropout (0.2) in **InceptionResNetV2 Model**, it wiil **reduced 20% test accuracy** approximately.
+4. **InceptionResNetV2 Model** provides lower accuracy when increasing batch size.
 
 ## 7. Conclusion👑
 
@@ -142,7 +149,7 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ### Appendix:
 - [Keras Applications](https://keras.io/api/applications)
 - [nuttachot promrit Apr 20, 2021](https://blog.pjjop.org/transfer-learning-with-keras-for-computer-vision-applications/)
-- [] 
+- [Asst.Prof.ThitiratSiriborvornratanakul, Ph.D.](https://www.facebook.com/thitirat.thelecturer)**GradCAM method: using example code in class06 of DADS7202**
  
 ## _End Credit_
 This study is a part of **Deep Learning course (DADS7202)**, Businuss Analytics and Data Science, National Institute of Development Admistration (NIDA)
@@ -150,7 +157,7 @@ This study is a part of **Deep Learning course (DADS7202)**, Businuss Analytics 
 ## 💟 3PM Member's Contribution and Responsibility 
 |No  |ID                |Name                              |% Contribution |Responsibility                             |
 |:---:|:---:             |---                               |:---:            |:---|
-|1. |6410422005     |Metpiya Learakkakorn|25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion|    
-|2. |6410422015     |Khodchapan Vitheethum |25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion|
-|3. |6410422017     |Peerat Pookpanich |25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion|
-|4. |6410422031     |Anyamanee Pornpanvattana |25% |Prepare dataset, Data cleaning, EDA, ML, MLP, Report, Conclusion |
+|1. |6410422005     |Metpiya Learakkakorn|25% |Prepare dataset, Train model-DenseNet121,  Conclusion|    
+|2. |6410422015     |Khodchapan Vitheethum |25% |Prepare dataset, Train model-VGG16,  Conclusion|
+|3. |6410422017     |Peerat Pookpanich |25% |Prepare dataset, Train model-InceptionResNetV2, Conclusion|
+|4. |6410422031     |Anyamanee Pornpanvattana |25% |Prepare dataset, Freeze model, Report, Conclusion|
