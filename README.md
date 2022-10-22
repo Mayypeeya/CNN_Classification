@@ -151,7 +151,7 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ## 6.Discussion🗣️
 1. Import Data Method: Using **Numpy Array** to support multiple format of image dataset and make sure that augmentation is already arranged in the correct class.
 2. From the experiment result, we found that adjusting the augmentation feature directly affects accuracy because augmentation is a regularization method that reduces data training is overfit.
-3. When using layer dropout (0.2) in **InceptionResNetV2 Model**, it wiil **reduced 20% test accuracy** approximately.
+3. When using layer dropout (0.2) in **InceptionResNetV2 Model**, it will **reduced 20% test accuracy** approximately.
 4. **InceptionResNetV2 Model** provides lower accuracy when increasing batch size.
 
 ## 7. Conclusion👑
