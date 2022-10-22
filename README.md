@@ -13,9 +13,9 @@
  - [2. Dataset🔎](https://github.com/Mayypeeya/CNN_Classification#2-data%EF%B8%8F)
  <br>- [Code_Image_Preprocessing]()
  - [3. Network architecture🌐](https://github.com/Mayypeeya/CNN_Classification#3-network-architecture)
- - [4. Training👻](https://github.com/Mayypeeya/CNN_Classification#4-training)
- - [5. Results📈](https://github.com/Mayypeeya/CNN_Classification#5-results)
- - [6. Discussion💭](https://github.com/Mayypeeya/CNN_Classification#6discussion)
+ - [4. Training📈](https://github.com/Mayypeeya/CNN_Classification#4-training)
+ - [5. Results📊](https://github.com/Mayypeeya/CNN_Classification#5-results)
+ - [6. Discussion🗣️](https://github.com/Mayypeeya/CNN_Classification#6discussion)
  - [7. Conclusion👑](https://github.com/Mayypeeya/CNN_Classification#7-conclusion)
  - [8. References✍🏼](https://github.com/Mayypeeya/CNN_Classification#8-references)
 
@@ -124,11 +124,9 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 
 ![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
 
-### 5.2 Trained Classication Layer
+### 5.2 Comparing Models
 
-### 5.3 Comparing Models
-
-### 5.4 Visualizing what CNN learned with Grad-Cam
+### 5.3 Visualizing what CNN learned with Grad-Cam
   
 
 ## 6.Discussion🗣️
@@ -138,7 +136,8 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 4. **InceptionResNetV2 Model** provides lower accuracy when increasing batch size.
 
 ## 7. Conclusion👑
-
+- In this experiment, we found that using some higher model architectures requiring computational power did not guarantee to work best with the dataset. On the other hand, DenseNet121 architecture with the less complexity that suitable with our dataset
+- 
 
 
 ## 8. References✍🏼
@@ -150,6 +149,15 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 - [Keras Applications](https://keras.io/api/applications)
 - [nuttachot promrit Apr 20, 2021](https://blog.pjjop.org/transfer-learning-with-keras-for-computer-vision-applications/)
 - [Asst.Prof.ThitiratSiriborvornratanakul, Ph.D.](https://www.facebook.com/thitirat.thelecturer)**GradCAM method: using example code in class06 of DADS7202**
+
+### Citing:
+[citing.file]
+@Misc{3PM,
+    AUTHOR          = {Metpiya Lea. , Khodchapan Vit. , Peerat Poo. , Anyamanee Por.},
+    TITLE           = {CNN classification comparion with 3 model base},
+    YEAR            = {2022},
+    howpublished    = "\url{https://github.com/Mayypeeya/CNN_Classification}"
+}
  
 ## _End Credit_
 This study is a part of **Deep Learning course (DADS7202)**, Businuss Analytics and Data Science, National Institute of Development Admistration (NIDA)
