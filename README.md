@@ -6,12 +6,7 @@
 
 
 ## 1. Introduction🍆
-<img width="175" alt="image" src="https://user-images.githubusercontent.com/69892468/197326383-4b305664-70b8-454d-83f6-14231974a77d.png">
-<img width="137" alt="image" src="https://user-images.githubusercontent.com/69892468/197326388-5e235574-87ab-4f98-95d8-d89fa0991fc8.png">
-<img width="147" alt="image" src="https://user-images.githubusercontent.com/69892468/197326411-54a6827f-3c2a-4a66-b8f1-64047861a2c3.png">
-<img width="121" alt="image" src="https://user-images.githubusercontent.com/69892468/197326425-bc6a7762-3938-43e5-a9fb-0d259212833f.png">
-
-
+![image](https://user-images.githubusercontent.com/101736826/197330829-95250bb4-b372-4fdb-9ab4-80370645e1e5.png)
 
 
 ## 2. Data🖼️
