@@ -1,4 +1,4 @@
-# CNN_Classification
+# CNN Classification
 ##  <font color="#8450B2">_Group: 3PM 👧🏻👩🏻👩🏼👦🏻_</font> <br>
 
 
