@@ -11,7 +11,8 @@
 ## 2. Data🖼️
 
 ### Data source
-<img width="499" alt="image" src="https://user-images.githubusercontent.com/69892468/197323957-f4eed7e2-ea55-4584-8eb0-893ca3ebf7dd.png">
+![image](https://user-images.githubusercontent.com/69892468/197324388-939685a2-674e-4de8-a3a8-d20abf0cc30b.png)
+
 
 ![Presentation1](https://user-images.githubusercontent.com/69892468/197324209-0e46ffbb-1dfb-4c3e-a0b7-29ae9a566591.jpg)
 
