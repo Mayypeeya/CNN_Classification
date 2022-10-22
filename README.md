@@ -6,6 +6,11 @@
 
 
 ## 1. Introduction🍆
+![image](https://user-images.githubusercontent.com/69892468/197326343-3eee8f54-391e-4746-b571-422ddbbf47b6.png)
+![image](https://user-images.githubusercontent.com/69892468/197326353-2463e09c-09de-45a9-b52b-9c1ad0eb246d.png)
+![image](https://user-images.githubusercontent.com/69892468/197326356-6a052f2e-27ce-445d-a563-3587f3b1aff8.png)
+![image](https://user-images.githubusercontent.com/69892468/197326360-134a798c-f218-4556-824f-bbf2cb75ec25.png)
+
 
 
 ## 2. Data🖼️
