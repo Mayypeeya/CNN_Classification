@@ -143,6 +143,8 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ![image](https://user-images.githubusercontent.com/39288060/197352161-93c090f0-d1ef-41bc-82a3-071c71d682d3.png)
 
 ### 5.3 Visualizing CNN learned with Grad-Cam
+![image](https://user-images.githubusercontent.com/101736826/197352472-9e2ad472-bf61-4e01-97c8-97bebe1783ca.png)
+
   
 
 ## 6.Discussion🗣️
