@@ -139,8 +139,9 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
 
 ### 5.2 Comparing Models
-**The best model is DenseNet121 at accuracy 98.89%**
+**The best model is DenseNet121 has accuracy increase 1.6% from 97.22% to 98.89% **
 ![image](https://user-images.githubusercontent.com/39288060/197352161-93c090f0-d1ef-41bc-82a3-071c71d682d3.png)
+
 
 ### 5.3 Visualizing CNN learned with Grad-Cam
 ![image](https://user-images.githubusercontent.com/101736826/197352472-9e2ad472-bf61-4e01-97c8-97bebe1783ca.png)
@@ -149,7 +150,7 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 
 ## 6.Discussion🗣️
 1. Import Data Method: Using **Numpy Array** to support multiple format of image dataset and make sure that augmentation is already arranged in the correct class.
-2. From the experiment result, we found that adjusting the augmentation feature directly affects accuracy because augmentation is a regularization method that reduces data training is overfit. Therefore, it was noticed that before and after augmentation the accuracy is different than XX%.
+2. From the experiment result, we found that adjusting the augmentation feature directly affects accuracy because augmentation is a regularization method that reduces data training is overfit.
 3. When using layer dropout (0.2) in **InceptionResNetV2 Model**, it wiil **reduced 20% test accuracy** approximately.
 4. **InceptionResNetV2 Model** provides lower accuracy when increasing batch size.
 
