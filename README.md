@@ -6,10 +6,11 @@
 
 
 ## 1. Introduction🍆
-![image](https://user-images.githubusercontent.com/69892468/197326343-3eee8f54-391e-4746-b571-422ddbbf47b6.png)
-![image](https://user-images.githubusercontent.com/69892468/197326353-2463e09c-09de-45a9-b52b-9c1ad0eb246d.png)
-![image](https://user-images.githubusercontent.com/69892468/197326356-6a052f2e-27ce-445d-a563-3587f3b1aff8.png)
-![image](https://user-images.githubusercontent.com/69892468/197326360-134a798c-f218-4556-824f-bbf2cb75ec25.png)
+<img width="175" alt="image" src="https://user-images.githubusercontent.com/69892468/197326383-4b305664-70b8-454d-83f6-14231974a77d.png">
+<img width="137" alt="image" src="https://user-images.githubusercontent.com/69892468/197326388-5e235574-87ab-4f98-95d8-d89fa0991fc8.png">
+<img width="147" alt="image" src="https://user-images.githubusercontent.com/69892468/197326411-54a6827f-3c2a-4a66-b8f1-64047861a2c3.png">
+<img width="121" alt="image" src="https://user-images.githubusercontent.com/69892468/197326425-bc6a7762-3938-43e5-a9fb-0d259212833f.png">
+
 
 
 
