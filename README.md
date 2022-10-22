@@ -3,21 +3,32 @@
 
 
 ## _💫Key Highlight💫_
-• Transfer Learning and Fine-Tuning applied to our custom dataset, the EggPlant images clasification.
-• Grad-CAM 
-• Bestmodel
+- Transfer Learning and Fine-Tuning applied to our custom dataset, the EggPlant images clasification.
+- Grad-CAM was used to understand which parts of CNN capture image to identify as belonging to a given class.
+- The best Model is DenseNet121 which compatable with vegetable class and has less training time 
 
 
 ## 📖Contents
  - [1. Introduction🍆🍅](https://github.com/Mayypeeya/CNN_Classification#1-introduction)
  - [2. Dataset🔎](https://github.com/Mayypeeya/CNN_Classification#2-data%EF%B8%8F)
- <br>- [Code_Image_Preprocessing]()
+  <br> Link: [Code_Image_Preprocessing](https://github.com/Mayypeeya/CNN_Classification/blob/5caa66a5f75f44d3047028d52f707882f68e59de/image_preprocessing.ipynb)
  - [3. Network architecture🌐](https://github.com/Mayypeeya/CNN_Classification#3-network-architecture)
  - [4. Training📈](https://github.com/Mayypeeya/CNN_Classification#4-training)
+   <br>***VGG16***
+   <br>[Code_WithOut_Tune:](https://github.com/Mayypeeya/CNN_Classification/blob/main/VGG16_NoTune.ipynb)
+   <br>[Code_With_Tune]()
+   <br>***DenseNet121***
+   <br>[Code_WithOut_Tune:](https://github.com/Mayypeeya/CNN_Classification/blob/main/DenseNet121_NoTune.ipynb)
+   <br>[Code_With_Tune]()
+   <br>***InceptionResNetV2***
+   <br>[Code_WithOut_Tune:](https://github.com/Mayypeeya/CNN_Classification/blob/main/InceptionResNetV2_NoTune.ipynb)
+   <br>[Code_With_Tune]()
+   
  - [5. Results📊](https://github.com/Mayypeeya/CNN_Classification#5-results)
  - [6. Discussion🗣️](https://github.com/Mayypeeya/CNN_Classification#6discussion)
  - [7. Conclusion👑](https://github.com/Mayypeeya/CNN_Classification#7-conclusion)
  - [8. References✍🏼](https://github.com/Mayypeeya/CNN_Classification#8-references)
+
 
 ## 1. Introduction🍆🍅
 Transfer Learning is about pre-trained model usage or weights of models that were trained with another huge dataset to be used with an interesting dataset. This helps to reduce the process and time for training the model manually and also improves the efficiency of the model's learning.
@@ -28,6 +39,7 @@ Transfer Learning is about pre-trained model usage or weights of models that wer
 
 ## 2. Dataset🖼️
 - We have compiled images by searching on the internet total of 4 types which total 600 images. See details in each class in the table.
+- 
 #### 🔎Data collection (Internet Seaching) 
 [🔗Link to download the dataset:](https://github.com/Mayypeeya/CNN_Classification/tree/main/01_DataSet_image)
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/69892468/197325994-e3aa997e-634f-4615-92fe-96e2a92702eb.png">
@@ -66,6 +78,7 @@ train_datagenerate.fit(x_train)
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/69892468/197327680-d17e2514-ea09-4e6d-a002-75554b2d2539.png">
 <img width="635" alt="image" src="https://user-images.githubusercontent.com/69892468/197327699-0db3a12a-e520-4c93-aaa6-14a2d43e07a3.png">
 
+
 ## 3. Network architecture🌐
 
 ### 3.1 Transfer learning
@@ -89,7 +102,6 @@ train_datagenerate.fit(x_train)
 
 ![image](https://user-images.githubusercontent.com/39288060/197343528-3e38282d-ce01-4afe-b82c-60998c882b21.png)
 
-
 ### 3.2 Freezed the pre-trained parameters
 **`Freezed the pre-trained CNN parameters to be non-trainable`** of three foundation models for transfer learning in part of feature extraction layer and created with a classification layer to be used classification image class that architecture of model has not learned before as in the detail of classification models below.
 
@@ -105,17 +117,19 @@ train_datagenerate.fit(x_train)
 5. If the model shown Overfit, add dropout layer into model.
 ```
 
+
 ## 4. Training📈
+### 4.1 Result after tuning model 
 ### Model #1 (VGG16 as Feature Extractor )
-- **`Best Accuracy: `**
+- **`Best Accuracy: 96.67%`**
 ![image](https://user-images.githubusercontent.com/39288060/197346962-7115df1d-0b93-4106-b5c4-0a87e74ca2c5.png)
 
 ### Model #2 (DenseNet121 as Feature Extractor)
-- **`Best Accuracy: `**
+- **`Best Accuracy: 98.33%`**
 ![image](https://user-images.githubusercontent.com/39288060/197346979-0a8bbaf9-1e72-4605-b120-d8f6693f5224.png)
 
 ### Model #3 (InceptionResNetV2 as Feature Extractor)
-- **`Best Accuracy: `**
+- **`Best Accuracy: 98.89%`**
 ![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
 ## 5. Results📊
@@ -125,8 +139,10 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
 
 ### 5.2 Comparing Models
+![image](https://user-images.githubusercontent.com/39288060/197350388-6438d340-e7c2-4c0a-9e5c-d7b04b65e8fe.png)
 
-### 5.3 Visualizing what CNN learned with Grad-Cam
+
+### 5.3 Visualizing CNN learned with Grad-Cam
   
 
 ## 6.Discussion🗣️
@@ -137,7 +153,7 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 
 ## 7. Conclusion👑
 - In this experiment, we found that using some higher model architectures requiring computational power did not guarantee to work best with the dataset. On the other hand, DenseNet121 architecture with the less complexity that suitable with our dataset
-- 
+- Transfer learning by using a pre-trained model that trains on the imagenet dataset and uses it as a feature extractor, resulting in a model with good performance in more than 90%. In other hand, we unfreeze some layer that closer clasification is better becuase it fit with our image dataset. 
 
 
 ## 8. References✍🏼
@@ -151,7 +167,8 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 - [Asst.Prof.ThitiratSiriborvornratanakul, Ph.D.](https://www.facebook.com/thitirat.thelecturer)**GradCAM method: using example code in class06 of DADS7202**
 
 ### Citing:
-[citing.file]
+[citing.file](https://github.com/Mayypeeya/CNN_Classification/blob/5caa66a5f75f44d3047028d52f707882f68e59de/citing.bib)
+<br>
 @Misc{3PM,
     AUTHOR          = {Metpiya Lea. , Khodchapan Vit. , Peerat Poo. , Anyamanee Por.},
     TITLE           = {CNN classification comparion with 3 model base},
