@@ -139,8 +139,8 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
 
 ### 5.2 Comparing Models
-![image](https://user-images.githubusercontent.com/39288060/197350388-6438d340-e7c2-4c0a-9e5c-d7b04b65e8fe.png)
-
+**The best model is DenseNet121 at accuracy 98.89%**
+![image](https://user-images.githubusercontent.com/39288060/197352161-93c090f0-d1ef-41bc-82a3-071c71d682d3.png)
 
 ### 5.3 Visualizing CNN learned with Grad-Cam
   
