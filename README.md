@@ -129,7 +129,7 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ### Model #13 (VGG16 as Feature Extractor )
 - **`Best Accuracy: 96.67%`** <br><br>
 Network Architecture
-<img width="929" alt="image" src="https://user-images.githubusercontent.com/69892468/197370472-0128c7ce-6e0d-4fe5-8d97-f7bc2c949034.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/69892468/197370550-7ecef11c-3ee2-49cc-9aab-03d374f09197.png">
 ![image](https://user-images.githubusercontent.com/39288060/197346962-7115df1d-0b93-4106-b5c4-0a87e74ca2c5.png)
 
 ### Model #10 (DenseNet121 as Feature Extractor)
