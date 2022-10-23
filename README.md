@@ -122,7 +122,7 @@ train_datagenerate.fit(x_train)
 
 ### 4.1 Result of no Fine-tuning model
 The results of model training no fine-tuning With the parameters in 3.2, DenseNet121 is the model with the highest accuracy of 0.968±0.004 and the lowest average training time of 27.5 sec. InceptionResNetV2 and VGG16 provide accuracy and a lower training time respectively.
-<img width="581" alt="image" src="https://user-images.githubusercontent.com/69892468/197371005-5d3e081a-2d5f-4d2d-b47a-80052ba794a2.png">
+<img width="872" alt="image" src="https://user-images.githubusercontent.com/69892468/197371037-7860fc3d-9c2f-4b09-bb00-f173debe82f9.png">
 
 ### 4.2 Result after Fine-tuning model 
 ### Model #1 (VGG16 as Feature Extractor )
