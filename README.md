@@ -129,21 +129,21 @@ train_datagenerate.fit(x_train)
 - **`Best Accuracy: 96.67%`** <br><br>
 Network Architecture
 ![image](https://user-images.githubusercontent.com/101736826/197370172-523d1167-6219-4a0a-b258-626953015c21.png)
-Model graph
+Model accuracy
 ![image](https://user-images.githubusercontent.com/39288060/197346962-7115df1d-0b93-4106-b5c4-0a87e74ca2c5.png)
 
 ### Model #2 (DenseNet121 as Feature Extractor)
 - **`Best Accuracy: 98.33%`** <br><br>
 Network Architecture
 ![image](https://user-images.githubusercontent.com/101736826/197370178-21b69d00-e7e5-40cf-83d4-5913466710f9.png)
-Model graph
+Model accuracy
 ![image](https://user-images.githubusercontent.com/39288060/197346979-0a8bbaf9-1e72-4605-b120-d8f6693f5224.png)
 
 ### Model #3 (InceptionResNetV2 as Feature Extractor)
 - **`Best Accuracy: 98.89%`** <br><br>
 Network Architecture
 ![image](https://user-images.githubusercontent.com/101736826/197370185-c06c9e7a-3587-408a-b64b-fa4a3750326e.png)
-Model graph
+Model accuracy
 ![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
 ## 5. Results📊
