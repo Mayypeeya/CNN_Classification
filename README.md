@@ -167,7 +167,6 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 
 ### Appendix:
 - [Keras Applications](https://keras.io/api/applications)
-- [nuttachot promrit Apr 20, 2021](https://blog.pjjop.org/transfer-learning-with-keras-for-computer-vision-applications/)
 - [Asst.Prof.ThitiratSiriborvornratanakul, Ph.D.](https://www.facebook.com/thitirat.thelecturer)**GradCAM method: using example code in class06 of DADS7202**
 
 ### Citing:[citing.file](https://github.com/Mayypeeya/CNN_Classification/blob/5caa66a5f75f44d3047028d52f707882f68e59de/citing.bib)
