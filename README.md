@@ -71,10 +71,9 @@ train_datagenerate.fit(x_train)
 
 |No  |Model Name      |Procesing code |
 |:---:|:---:             |---                               |
-| 1. |**`VGG16`**  | tf.keras.applications.**`vgg16`**.preprocess_input()  |   
-| 2. |**`DenseNet121`**| tf.keras.applications.**`densenet`**.preprocess_input()| 
-| 3. |**`InceptionResNetV2`** | tf.keras.applications.**`inception_resnet_v2`**.preprocess_input()| 
-
+| 1. |**`VGG16`**  | tf.keras.applications.**`vgg16`**.preprocess_input()  |  
+| 2. |**`InceptionResNetV2`** | tf.keras.applications.**`inception_resnet_v2`**.preprocess_input()| 
+| 3. |**`DenseNet121`**| tf.keras.applications.**`densenet`**.preprocess_input()| 
 
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/69892468/197327680-d17e2514-ea09-4e6d-a002-75554b2d2539.png">
 <img width="635" alt="image" src="https://user-images.githubusercontent.com/69892468/197327699-0db3a12a-e520-4c93-aaa6-14a2d43e07a3.png">
@@ -133,19 +132,20 @@ Network Architecture
 
 ![image](https://user-images.githubusercontent.com/101736826/197370758-590e941e-823b-449d-9bff-f90ecce7a90a.png)
 
-### Model #2 (DenseNet121 as Feature Extractor)
-- **`Best Accuracy: 98.33%`** <br><br>
+### Model #2 (InceptionResNetV2 as Feature Extractor)
+- **`Best Accuracy: 98.89%`** <br><br>
 Network Architecture
 ![image](https://user-images.githubusercontent.com/101736826/197370708-3b4bc64c-be39-448c-98d4-3331bc806ca2.png)
 
-![image](https://user-images.githubusercontent.com/39288060/197346979-0a8bbaf9-1e72-4605-b120-d8f6693f5224.png)
+![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
-### Model #3 (InceptionResNetV2 as Feature Extractor)
-- **`Best Accuracy: 98.89%`** <br><br>
+### Model #3 (DenseNet121 as Feature Extractor)
+- **`Best Accuracy: 98.33%`** <br><br>
 Network Architecture
 ![image](https://user-images.githubusercontent.com/101736826/197370727-85f201fb-07b9-48e9-b6f3-45d4ba1698cd.png)
 
-![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
+![image](https://user-images.githubusercontent.com/39288060/197346979-0a8bbaf9-1e72-4605-b120-d8f6693f5224.png)
+
 
 ## 5. Results📊
 
