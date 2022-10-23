@@ -130,19 +130,19 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 - **`Best Accuracy: 96.67%`** <br><br>
 Network Architecture
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/69892468/197370550-7ecef11c-3ee2-49cc-9aab-03d374f09197.png">
-![image](https://user-images.githubusercontent.com/39288060/197346962-7115df1d-0b93-4106-b5c4-0a87e74ca2c5.png)
+![image](https://user-images.githubusercontent.com/101736826/197370695-17714496-857c-4e03-bf2d-7b9fb27cb9e8.png)
 
 ### Model #2 (DenseNet121 as Feature Extractor)
 - **`Best Accuracy: 98.33%`** <br><br>
 Network Architecture
-<img width="929" alt="image" src="https://user-images.githubusercontent.com/69892468/197370583-388dff89-4492-4c5c-b724-14cd031136a3.png">
+![image](https://user-images.githubusercontent.com/101736826/197370708-3b4bc64c-be39-448c-98d4-3331bc806ca2.png)
 
 ![image](https://user-images.githubusercontent.com/39288060/197346979-0a8bbaf9-1e72-4605-b120-d8f6693f5224.png)
 
 ### Model #3 (InceptionResNetV2 as Feature Extractor)
 - **`Best Accuracy: 98.89%`** <br><br>
 Network Architecture
-<img width="926" alt="image" src="https://user-images.githubusercontent.com/69892468/197370488-22cfcb03-122d-49d6-a54d-4a322a631d8e.png">
+![image](https://user-images.githubusercontent.com/101736826/197370727-85f201fb-07b9-48e9-b6f3-45d4ba1698cd.png)
 
 ![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
