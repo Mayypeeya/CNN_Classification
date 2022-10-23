@@ -140,7 +140,7 @@ Network Architecture
 ![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
 ### Model #3 (DenseNet121 as Feature Extractor)
-- **`Best Accuracy: 98.89%`** <br><br>
+- **`Best Accuracy: 98.89%`** 👑 <br><br>
 Network Architecture
 ![image](https://user-images.githubusercontent.com/101736826/197370727-85f201fb-07b9-48e9-b6f3-45d4ba1698cd.png)
 
