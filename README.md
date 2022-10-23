@@ -122,6 +122,7 @@ train_datagenerate.fit(x_train)
 ## 4. Training📈
 
 ### 4.1 Result of no Fine-tuning model
+The results of model training no fine-tuning With the parameters in 3.2, DenseNet121 is the model with the highest accuracy of 0.968±0.004 and the lowest average training time of 27.5 sec. InceptionResNetV2 and VGG16 provide accuracy and a lower training time respectively.
 ![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
 
 ### 4.2 Result after Fine-tuning model 
@@ -147,18 +148,14 @@ Model accuracy
 ![image](https://user-images.githubusercontent.com/39288060/197347036-5d8ab2aa-20cd-41ce-bbfe-284e72d32dfe.png)
 
 ## 5. Results📊
-### 5.1 Freezed the pre-trained parameters 
-The results of model training no fine-tuning With the parameters in 3.2, DenseNet121 is the model with the highest accuracy of 0.968±0.004 and the lowest average training time of 27.5 sec. InceptionResNetV2 and VGG16 provide accuracy and a lower training time respectively.
 
-![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
-
-### 5.2 Comparing Models
+### 5.1 Comparing Models
 **The best model is DenseNet121 has accuracy increase 1.67% from 97.22% to 98.89% **
 ![image](https://user-images.githubusercontent.com/69892468/197368637-9ad2b853-57d4-4462-8818-e8d6b829bfa7.png)
 
 
 
-### 5.3 Visualizing CNN learned with Grad-Cam
+### 5.2 Visualizing CNN learned with Grad-Cam
 ![image](https://user-images.githubusercontent.com/101736826/197352472-9e2ad472-bf61-4e01-97c8-97bebe1783ca.png)
 
   
