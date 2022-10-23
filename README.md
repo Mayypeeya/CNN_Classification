@@ -140,8 +140,7 @@ The results of model training no fine-tuning With the parameters in 3.2, DenseNe
 ![image](https://user-images.githubusercontent.com/39288060/197344072-6b26b12a-084b-4126-acc9-8596c09c19b3.png)
 
 ### 5.2 Comparing Models
-**The best model is DenseNet121 has accuracy increase 1.6% from 97.22% to 98.89% **
-![image](https://user-images.githubusercontent.com/39288060/197352161-93c090f0-d1ef-41bc-82a3-071c71d682d3.png)
+**The best model is DenseNet121 has accuracy increase 1.67% from 97.22% to 98.89% **
 ![image](https://user-images.githubusercontent.com/69892468/197368637-9ad2b853-57d4-4462-8818-e8d6b829bfa7.png)
 
 
