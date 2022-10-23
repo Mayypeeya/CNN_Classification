@@ -120,7 +120,11 @@ train_datagenerate.fit(x_train)
 
 
 ## 4. Training📈
-### 4.1 Result after tuning model 
+
+### 4.1 Tuning model 
+<img width="929" alt="image" src="https://user-images.githubusercontent.com/69892468/197369937-d61e8318-2abd-47ca-afeb-e229b58c1363.png">
+
+### 4.2 Result after tuning model 
 ### Model #1 (VGG16 as Feature Extractor )
 - **`Best Accuracy: 96.67%`**
 ![image](https://user-images.githubusercontent.com/39288060/197346962-7115df1d-0b93-4106-b5c4-0a87e74ca2c5.png)
